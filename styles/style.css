@@ -39,6 +39,7 @@ hr{
  font-size: 24px;
  margin-top: 3px;
 }
+
 .players{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -97,15 +98,17 @@ hr{
 =====================================*/
 
 
+
 /* ==============================
         Courses style
   ===============================*/
 
-  .courses{
+.courses{
       display: grid;
       grid-template-columns:repeat(3, 1fr);
       grid-column-gap:24px;
   }
+  
 .course .course-banner img{
  width: 224px;
  height: 104px
